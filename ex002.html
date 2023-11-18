@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt - br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <style> 
+            /* css */
+        body{ 
+            background-color: #c7e6c7;
+            color: #072207;
+            font: normal 18pt arial;
+        }
+        h1{
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <!--html-->
+    <h1> Olá, mundo! </h1>
+    <p> Já me livrei da maldiçãp</p>
+    <script> 
+        /* javascript
+
+        alert('Por favor, preste muita atenção na aula! Seja uma gatinha inteligente ;)')  
+        confirm('Promete que vai estudar?')
+
+        var nome = prompt('Nome:')
+
+        alert('Prazer em te conhecer '+nome+'!')
+
+    
+        */
+        var n1 = Number.parseFloat(prompt('Digite um número: '))
+        //posso usar apenas Number(prompt('numero:')) o java decide o tipo de variável de acordo com o recebido
+        var n2 = Number.parseFloat(prompt('Digite outro: '))//string
+        /*
+        
+        number -> string String(n) || n.toString()
+        
+        n.length - quantos caracteres a string tem
+        n.toUpperCase() - deixa tudo em MAIÚSCULO
+        n.toLowerCase() - tudo minusculo
+
+        n.toFixed(2) - duas casas depois da virgula
+        n.toFixed(2).replace('.',',') - troca o ponto por virgula
+        n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) - formata o numero em real brasileiro R$ 1.500,00
+        */
+
+        var s = n1+n2
+
+        alert('A soma dos valores é: '+ s)
+        alert(`a soma dos numeros é: ${s}`)
+
+
+
+        //usamos craze para mostrar usando template string ´${s}´
+
+    </script>
+</body>
+</html>
+
+
